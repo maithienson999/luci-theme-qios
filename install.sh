@@ -115,7 +115,7 @@ install_theme() {
     
     tar -xzf theme.tar.gz
     
-    EXTRACT_DIR=$(find . -maxdepth 1 -type d -name "luci-theme-proton2025*" | head -1)
+    EXTRACT_DIR=$(find . -maxdepth 1 -type d -name "luci-theme-qios*" | head -1)
     
     if [ -z "$EXTRACT_DIR" ]; then
         err "Failed to extract theme"
