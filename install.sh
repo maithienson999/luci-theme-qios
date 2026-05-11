@@ -11,7 +11,7 @@
 set -e
 
 # Theme info
-THEME_NAME="proton2025"
+THEME_NAME="qios"
 REPO_URL="https://github.com/maithienson999/luci-theme-qios"
 BRANCH="main"
 ARCHIVE_URL="${REPO_URL}/archive/refs/heads/${BRANCH}.tar.gz"
