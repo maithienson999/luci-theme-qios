@@ -5,7 +5,7 @@
 
 import { cursor } from 'uci';
 
-const CONFIG_NAME = 'proton2025';
+const CONFIG_NAME = 'qios';
 const SECTION_NAME = 'settings';
 
 // Valid options and their defaults
