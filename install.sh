@@ -179,8 +179,8 @@ install_translations() {
 register_theme() {
     info "Registering theme..."
     
-    if [ -f "$UCI_DEFAULTS/30_luci-theme-proton2025" ]; then
-        sh "$UCI_DEFAULTS/30_luci-theme-proton2025"
+    if [ -f "$UCI_DEFAULTS/30_luci-theme-qios" ]; then
+        sh "$UCI_DEFAULTS/30_luci-theme-qios"
         ok "Theme registered"
     fi
     
